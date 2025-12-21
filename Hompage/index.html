@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>home</title>
+<style>
+:root {
+  --bg: #2E3440;
+  --fg: #ECEFF4;
+  --accent: #88C0D0;
+  --muted: #4C566A;
+  --card: #3B4252;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: monospace;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 320px;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: var(--card);
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--fg);
+  display: block;
+}
+
+a span {
+  color: var(--accent);
+}
+
+a:hover {
+  background: var(--muted);
+  border-radius: 6px;
+}
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>૮ ˶ᵔ ᵕ ᵔ˶ ა welcome home</h1>
+    <ul>
+      <li>
+        <a href="https://www.youtube.com">
+          📺 <span>YouTube</span> — comfy videos
+        </a>
+      </li>
+      <li>
+        <a href="https://chat.openai.com">
+          💬 <span>ChatGPT</span> — thinking buddy
+        </a>
+      </li>
+      <li>
+        <a href="https://duckduckgo.com">
+          🦆 <span>DuckDuckGo</span> — quiet search
+        </a>
+      </li>
+      <li>
+        <a href="https://packages.debian.org">
+          📦 <span>Debian Packages</span> — stable magic
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
+
